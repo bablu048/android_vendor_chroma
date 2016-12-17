@@ -16,5 +16,5 @@ PRODUCT_MANUFACTURER := OnePlus
 
 
 # Copy hammerhead specific prebuilt files
-PRODUCT_COPY_FILES +=  \
+PRODUCT_COPY_FILES += \
     vendor/chroma/prebuilt/bacon/system/media/bootanimation.zip:system/media/bootanimation.zip
