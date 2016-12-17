@@ -1,3 +1,10 @@
+ifeq ($(TARGET_PRODUCT),chroma_bacon)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=bacon \
+    BUILD_FINGERPRINT=oneplus/bacon/A0001:6.0.1/LMY48B/Y0G4PAS1N0:user/release-keys \
+    PRIVATE_BUILD_DESC="bacon-user 6.0.1 LMY48B Y0G4PAS1N0 release-keys"
+endif
+
 ifeq ($(TARGET_PRODUCT),chroma_angler)
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
